@@ -105,4 +105,10 @@ ____
 - local == Working Directory, .git == Staging Area , github == repository
 - repo와 git의 폴더 이름을 같게 해준다
 - public으로 하면 안됨 private로 해야함 ( 삼성 보안 )
-- 
+- `git remote add origin <github url>` repo를 생성하고 로컬 저장소와 연결 할 때마다 작업
+- `git add` working directory > staging area로 올리는 거 `.`를 추가하면 전부, `파일이름.확장자`면 한 파일 ex)'git add . ','git add README.md''git add "ys kwon.txt"
+- `git commit` staging area에서 올린 파일에 메시지 작성  `-m`"message" ex)`git commit -m "메시지"`
+- `git push` staging area > repository로 파일 올리는 거 `git push origin <branch>`
+- `git pull` repository > working directory로 파일 받는 거 
+- `git status` working directory 확인, 빨간색 파일은 올라가지 않은 파일, 녹색 파일은 올라간 파일,
+- `git log` staging area 확인
